@@ -1,0 +1,39 @@
+/*! Animation Card Projet !*/
+.projetcard::before, .projetcard::after {
+	box-sizing: inherit;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.hovercard:hover {
+	color: #6477b9;
+  }
+  .hovercard::before, .hovercard::after {
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	-webkit-transform-origin: hovercard;
+			transform-origin: hovercard;
+  }
+  .hovercard::before {
+	border-top: 2px solid #6477b9;
+	border-bottom: 2px solid #6477b9;
+	-webkit-transform: scale3d(0, 1, 1);
+			transform: scale3d(0, 1, 1);
+  }
+  .hovercard::after {
+	border-left: 2px solid #6477b9;
+	border-right: 2px solid #6477b9;
+	-webkit-transform: scale3d(1, 0, 1);
+			transform: scale3d(1, 0, 1);
+  }
+  .hovercard:hover::before, .hovercard:hover::after {
+	-webkit-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	transition: transform 0.5s, -webkit-transform 0.5s;
+  }

@@ -1,0 +1,13 @@
+/*! Pills custom css + hover !*/
+.pills{
+    border: 1px solid;
+    border-color: #E94560;
+    border-radius: 15px;
+}
+.pills:hover {
+    background-color: #E94560;
+}
+/*! Section Presentation Box !*/
+/* .presentation-box{
+	border-radius: 20px;
+} */

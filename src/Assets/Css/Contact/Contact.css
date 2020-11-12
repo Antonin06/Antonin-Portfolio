@@ -1,0 +1,14 @@
+/*! Custom Button Form !*/
+.form-button{
+	border: 1px solid var(--color-pink);
+	background-color: var(--color-2);
+	color: #ffffff;
+}
+.form-button:hover{
+	border: 1px solid var(--color-pink);
+	background-color: var(--color-pink);
+	color: #ffffff;
+}
+.form-message{
+	color: #ffffff;
+}

@@ -1,0 +1,94 @@
+/*! APP COLOR !*/
+:root {
+	--color-1: #1A1A2E; 
+	--color-2: #16213E;
+	--color-white: #ffffff;
+	--color-pink: #E94560;	
+}
+.white {
+	color: var(--color-white) !important;
+}
+.pink{
+	color: var(--color-pink);
+}
+.blue1{
+	color: var(--color-1) !important;
+}
+.blue2{
+	color: var(--color-2) !important;
+}
+.bg-white{
+	background-color: var(--color-white);
+}
+.bg-pink{
+	background-color: var(--color-pink);
+}
+.bg-blue1{
+	background-color: var(--color-1) !important ;
+}
+.bg-blue2{
+	background-color: var(--color-2) !important ;
+}
+
+/*! Custom Font !*/
+.letter-space-1{
+	letter-spacing: 1px;
+}
+.letter-space-3{
+	letter-spacing: 3px;
+}
+.letter-space-5{
+	letter-spacing: 5px;
+}
+.text-uppercase{
+	text-transform:uppercase;
+}
+.text-size-11{
+	font-size: 11px;
+}
+.text-size-14{
+	font-size: 14px;
+}
+
+/*! Title Section !*/
+.module-header {
+	padding-top: 100px;
+	text-align: center;
+}
+.module-title {
+    position: relative;
+    margin-bottom: 55px;
+    font-weight: 300;
+	color: #ffffff;
+	letter-spacing: 5px;
+}
+.module-title span {
+    font-size: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -40px;
+    z-index: 0;
+    opacity: 0.02;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.module-line {
+    background: #ffffff;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+
+/*! Media Query !*/
+  @media screen and (max-width: 414px)
+{
+	.module-title span{
+		font-size: 40px;
+		top: -20px;
+	}
+}
+
+
