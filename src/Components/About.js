@@ -51,14 +51,9 @@ const About = () => {
               <Row>
                 <Col xs={{ span: 12, offset: 0 }} className="mt-3 px-3 white">
                   <div className="d-block letter-space-1 text-size-14">
-                    Salut ! Je m'appelle Antonin Avon, 26 ans et bientôt diplômé Développeur Web grâce aux compétences acquises pendant ma formation chez Simplon Roanne.<br/>
-                    Passionné et particulièrement attiré par le Front-End, le Design et l'UI, j'aimerais continuer mes études dans cette voie et en apprendre d'avantage.<br/>
-                    Je cherche actuellement une Alternance pour début 2021. Je suis Mobile. Contactez moi
-                    {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla
-                    mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender
-                    it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */}
+                    Salut ! Je m'appelle Antonin Avon, 26 ans et bientôt diplômé du titre professionnel <span className="font-weight-bold text-underline">Développeur Web et Web Mobile</span> grâce aux compétences acquises pendant ma formation de 8 mois à Simplon Roanne.<br/>
+                    Passionné et fortement attiré par le Front-End, le Design et l'UI, j'aimerais continuer mes études dans cette voie pour enrichir mes compétences.<br/>
+                    Je cherche activement une entreprise d'accueil qui pourrait me prendre en contrat d'apprentissage ou de professionnalisation pour décembre 2020. Je suis Mobile sur la région Auvergne-Rhône-Alpes et PACA. Contactez-moi
                   </div>
                 </Col>
               </Row>

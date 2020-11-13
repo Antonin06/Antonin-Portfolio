@@ -13,7 +13,7 @@ const Navigation = () => {
         <Navbar expand="lg" className="sticky-top bg-white py-lg-0">
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="mr-auto custom-toggler"/>
       <Container>
-        <Navbar.Brand  className="d-none d-lg-block blue2 text-size-18 letter-space-3">ANTONIN<span className="pink">.</span>AVON</Navbar.Brand>
+        <Navbar.Brand  className="d-none d-lg-block blue2 letter-space-3">ANTONIN<span className="text-size-22 pink">.</span>AVON</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center white">
             <Nav className="">
             <Nav.Link className="p-0 nav-item active">
@@ -55,7 +55,7 @@ const Navigation = () => {
                   Projets
                 </Link>
               </Nav.Link>
-            <Nav.Link className="p-0  nav-item active hover-nav">
+            <Nav.Link className="p-0 nav-item active hover-nav">
                 <Link
                   activeClass="active"
                   to="contact"
@@ -68,7 +68,7 @@ const Navigation = () => {
                   Contact
                 </Link>
             </Nav.Link>
-            <Nav.Link className="p-0  nav-item active hover-nav">
+            {/* <Nav.Link className="p-0  nav-item active hover-nav">
                 <Link
                   href={pdf}
                   
@@ -80,7 +80,7 @@ const Navigation = () => {
                 >
                   Contact
                 </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             </Nav>
         </Navbar.Collapse>
       </Container>

@@ -33,12 +33,13 @@ const Landing = () => {
           <Typical
           steps={[
           1500,
-          'Je suis Développeur Web Junior', 1500,
-          "Passionné le Front-End 💻", 1500,
-          "J'aime le Design 🎨", 1500,
-          "J'aime le CSS", 1500,
-          "J'aime le Javascript", 1500,
-          "Je Recherche un Contrat Pro en Alternance", 3000,
+          'Je suis développeur Web Junior specialisé Front-End ', 1500,
+          // "Passionné par le Front-End 💻", 1500,
+          "Passionné par le Design 🎨", 1500,
+          "Passionné par la Photographie 📸", 1500,
+          "J'aime le travail en équipe 👥", 1500,
+          "J'aime aussi être autonome 👤", 1500,
+          "Je recherche une entreprise d'accueil pour une alternance", 3000,
           ]}
           start
           loop={Infinity}

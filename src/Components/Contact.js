@@ -44,7 +44,7 @@ const Contact = () => {
                 <Form.Group controlId="exampleForm.ControlTextarea1">
                   <Form.Control as="textarea" rows={3} placeholder="Votre Message" name="message" required="required" className="text-size-14 letter-space-1"/>
                 </Form.Group>
-                <button type="submit" className="w-100 py-1 rounded form-button letter-space-1 text-size-14">Me Contacter</button>
+                <button type="submit" className="w-100 py-2 rounded form-button letter-space-1 text-size-14">Me Contacter</button>
                 <Alert className="form-message text-center m-0 p-0 pt-1"></Alert>
               </Form>
             </Col>
