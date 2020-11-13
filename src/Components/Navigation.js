@@ -63,7 +63,7 @@ const Navigation = () => {
                   smooth={true}
                   offset={-50}
                   duration={500}
-                  className="nav-link py-4 px-3 blue1 letter-space-3 text-size-11 text-uppercase "
+                  className="nav-link py-4 px-3 blue1 letter-space-3 text-size-11 text-uppercase hover-nav"
                 >
                   Contact
                 </Link>
