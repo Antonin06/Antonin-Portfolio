@@ -11,7 +11,7 @@ import '../Assets/Css/About/About.css';
 
 const About = () => {
     return (
-        <Container fluid className="p-0 bg-info pb-5 bg-blue2" id="about">
+        <Container fluid className="bg-info pb-5 bg-blue2" id="about">
       <div className="module-header">
         <h2 className="module-title">
           PRESENTATION

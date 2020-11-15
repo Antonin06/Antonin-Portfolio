@@ -28,7 +28,7 @@ const App = () => {
     <Projects/>
 
     <Contact/>
-    <Footer/>
+    {/* <Footer/> */}
   </motion.div>
   </>
   );

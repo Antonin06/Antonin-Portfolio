@@ -12,7 +12,7 @@ import '../Assets/Css/Landing/Landing.css';
 
 const Landing = () => {
     return (
-    <Container fluid className=" p-0 vh-100" id="home">
+    <Container fluid className="p-0 vh-100" id="home">
       <ParticleAnimation 
         interactive={false}
         numParticles={300}
@@ -52,8 +52,7 @@ const Landing = () => {
           activeClass="active"
           to="about"
           spy={true}
-          smooth={true}
-          offset={-49}
+          offset={-55}
           duration={500}
           className="nav-link"
         >
@@ -63,8 +62,7 @@ const Landing = () => {
             <span></span>
           </div>
         </Link>
-        </Nav.Link>
-
+        </Nav.Link>   
       </Container>
     </Container>
     )
