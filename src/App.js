@@ -26,9 +26,8 @@ const App = () => {
     <Navigation/>
     <About/>
     <Projects/>
-
     <Contact/>
-    {/* <Footer/> */}
+    <Footer/>
   </motion.div>
   </>
   );

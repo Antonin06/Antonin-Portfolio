@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
 import { Container, Navbar, Nav} from 'react-bootstrap';
 import { Link } from "react-scroll";
+import pdf from '../Assets/cv.pdf';
 
 //! Import CSS !//
 import '../Assets/Css/Core/App.css';
@@ -184,6 +185,9 @@ const Navigation = () => {
             </Link>
         </li>
             
+        <li className="m-0 d-none d-xl-block">
+            <a href={pdf} without rel="noopener noreferrer" target="_blank" className="nav-link py-4 px-4 letter-space-3 text-size-11 text-uppercase hover-nav pink">mon cv</a>
+        </li>
           </Nav>
         </Navbar.Collapse>
       </Container>

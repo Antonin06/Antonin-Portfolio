@@ -4,7 +4,7 @@ import { faFacebookF, faLinkedinIn, faInstagram, faGithub } from '@fortawesome/f
 
 const Footer = () => {
     return (
-    <Container fluid className="p-0 m-0 Sticky-bottom bg-blue1">
+    <Container fluid className="p-0 m-0 sticky-bottom bg-blue1">
       <Container>
 
       <Row className="p-0 m-0">

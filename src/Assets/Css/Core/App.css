@@ -9,7 +9,7 @@
 	color: var(--color-white) !important;
 }
 .pink{
-	color: var(--color-pink);
+	color: var(--color-pink) !important;
 }
 .blue1{
 	color: var(--color-1) !important;
@@ -93,7 +93,7 @@
     background: #ffffff;
     width: 55px;
     height: 1px;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 

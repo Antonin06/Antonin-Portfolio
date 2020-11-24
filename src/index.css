@@ -4,10 +4,12 @@ body {
   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
 }
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 button{
